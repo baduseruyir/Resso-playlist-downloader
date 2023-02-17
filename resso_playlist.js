@@ -6,7 +6,7 @@ module.exports.getPlaylist = async () => {
   try {
     let playlistObj = {};
     let url =
-      "https://www.resso.com/playlist/Love-and-Sad-Song-Best-Playlist-6949362741383780354"; //put your playlist url
+      "https://m.resso.com/Zs88qhyjV/"; //put your playlist url
 
     const response = await axios.get(url);
     let htmlContent = response.data;
